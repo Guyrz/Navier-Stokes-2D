@@ -9,6 +9,7 @@ venv/
 
 # IDE
 .idea/
+.vscode/
 
 # Simulation output
 *.npy

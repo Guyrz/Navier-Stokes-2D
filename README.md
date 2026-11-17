@@ -37,7 +37,12 @@ A lid-driven cavity case runs, but it is **not validated**. The current setup us
 
 ## Usage
 
+Requires Python 3.10+.
+
 ```
+python -m venv .venv
+.venv\Scripts\activate          # Windows
+source .venv/bin/activate        # macOS/Linux
 pip install -r requirements.txt
 python Solver.py poiseuille
 python Solver.py cavity
@@ -49,7 +54,6 @@ Options: `--nu`, `--G`, `--u-lid`, `--nx`, `--ny`, `--t-end`. Use `--save figure
 ## Tests
 
 ```
-pip install pytest
 pytest
 ```
 
