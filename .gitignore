@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.idea/
+
+# Simulation output
+*.npy
+
+# Local files, not part of the repo
+ns_numerical_solver.pdf
+simple-ns.xml
